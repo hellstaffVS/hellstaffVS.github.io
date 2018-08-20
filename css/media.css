@@ -1,18 +1,18 @@
 @media screen and (min-width: 1900px){
 	.menu ul a{
-		font-size: 30px;
+		font-size: 40px;
 	}
 	.about-me_section{
 		height: auto;
 	}
 	.about-me_section p{
-		font-size: 30px;
+		font-size: 40px;
 	}
 	.my-skills_section span{
-		font-size: 25px;
+		font-size: 35px;
 	}
 	.my-skills_section-item p{
-		font-size: 30px;
+		font-size: 40px;
 	}
 	.works-item-one img{
 		width: 550px;
@@ -47,12 +47,12 @@
 		padding-bottom: 100px;
 	}
 	.footer img{
-		width: 55px;
+		width: 65px;
 	}
 }
 @media screen and (max-width: 1100px){
 	.header-content h1{
-	font-size: 65px;
+	font-size: 55px;
 	}
 	.header-content span{
 		font-size: 35px;
