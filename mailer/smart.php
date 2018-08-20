@@ -35,9 +35,9 @@ $mail->Body    = '
 $mail->AltBody = 'Это альтернативный текст';
 
 if(!$mail->send()) {
-    header('location: ../error.html');
+    header('location: ../pages/error.html');
 } else {
-    header('location: ../thankyou.html');
+    header('location: ../pages/thankyou.html');
 }
 
 ?>
