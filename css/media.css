@@ -1,0 +1,456 @@
+@media screen and (min-width: 1900px){
+	.menu ul a{
+		font-size: 30px;
+	}
+	.about-me_section{
+		height: auto;
+	}
+	.about-me_section p{
+		font-size: 30px;
+	}
+	.my-skills_section span{
+		font-size: 25px;
+	}
+	.my-skills_section-item p{
+		font-size: 30px;
+	}
+	.works-item-one img{
+		width: 550px;
+		height: 400px;
+	}
+	.works-item-two img{
+		width: 550px;
+		height: 400px;
+	}
+	.works-item-three img{
+		width: 550px;
+		height: 400px;
+	}
+	.works-item-four img{
+		width: 550px;
+		height: 400px;
+	}
+	.works-item-five img{
+		width: 550px;
+		height: 400px;
+	}
+	.works-item-six img{
+		width: 550px;
+		height: 400px;
+	}
+	.auth-section{
+		height: auto;
+		padding-bottom: 100px;
+	}
+	.testimonials-section{
+		height: auto;
+		padding-bottom: 100px;
+	}
+	.footer img{
+		width: 55px;
+	}
+}
+@media screen and (max-width: 1100px){
+	.header-content h1{
+	font-size: 65px;
+	}
+	.header-content span{
+		font-size: 35px;
+	}
+	.about-me_section{
+		height: auto;
+		padding-bottom: 100px;
+	}
+	.my-skills_one span{
+		display: -webkit-flex;
+		display: -moz-flex;
+		display: -ms-flex;
+		display: -o-flex;
+		display: flex;
+		-webkit-flex-direction: column;
+		-moz-flex-direction: column;
+		-ms-flex-direction: column;
+		-o-flex-direction: column;
+		flex-direction: column;
+	}
+	.my-skills_one span img{
+		margin-bottom: 15xpx;
+	}
+	.my-works_section{
+		padding-left: 40px;
+		padding-right: 40px;
+	}
+	.works-item-one img{
+		width: 400px;
+		height: 250px;
+	}
+	.works-item-two img{
+		width: 400px;
+		height: 250px;
+	}
+	.works-item-three img{
+		width: 400px;
+		height: 250px;
+	}
+	.works-item-four img{
+		width: 400px;
+		height: 250px;
+	}
+	.works-item-five img{
+		width: 400px;
+		height: 250px;
+	}
+	.works-item-six img{
+		width: 400px;
+		height: 250px;
+	}
+	.auth-section span{
+		font-size: 30px;
+		font-style: italic;
+	}
+	.testimonials-section{
+		padding-bottom: 100px;
+	}
+}
+@media screen and (max-width: 998px){
+	.header-content{
+		padding-left: 50px;
+		padding-right: 50px;
+	}
+	.about-me_item-top, .about-me_item_bottom{
+		display: -webkit-flex;
+		display: -moz-flex;
+		display: -ms-flex;
+		display: -o-flex;
+		display: flex;
+		-webkit-flex-direction: column;
+		-moz-flex-direction: column;
+		-ms-flex-direction: column;
+		-o-flex-direction: column;
+		flex-direction: column;
+	}
+	.about-me_item{
+		width: 100%;
+	}
+	.my-skills_one, .my-skills_two, .my-skills_thre{
+		display: -webkit-flex;
+		display: -moz-flex;
+		display: -ms-flex;
+		display: -o-flex;
+		display: flex;
+		-webkit-flex-direction: column;
+		-moz-flex-direction: column;
+		-ms-flex-direction: column;
+		-o-flex-direction: column;
+		flex-direction: column;
+	}
+	.my-skills_section-item{
+		width: 100%;
+		padding-bottom: 50px;
+	}
+	.my-skills_section-item span img{
+		margin-bottom: 20px;
+	}
+	.works img{
+		width: 650px;
+		height: 500px;
+	}
+	.works-one, .works-two, .works-three, .works-four, .works-five, .works-six{
+		display: -webkit-flex;
+		display: -moz-flex;
+		display: -ms-flex;
+		display: -o-flex;
+		display: flex;
+		-webkit-flex-direction: column;
+		-moz-flex-direction: column;
+		-ms-flex-direction: column;
+		-o-flex-direction: column;
+		flex-direction: column;
+	}
+	.works-item-two, .works-item-four, .works-item-six{
+		margin-left: 0;
+		margin-top: 50px;
+	}
+	.auth-section span{
+		font-size: 30px;
+		font-weight: 700;
+		margin-right: 20px;
+	}
+	.about-me_section{
+		padding-left: 30px;
+		padding-right: 30px;
+	}
+	.my-skills_section{
+		padding-left: 30px;
+		padding-right: 30px;
+	}
+	.my-works_section{
+		padding-left: 30px;
+		padding-right: 30px;
+	}
+		.overlay-form p{
+		color: #fff;
+		font-size: 25px;
+		text-align: center;
+	}
+}
+@media screen and (max-width: 800px){
+	.overlay-form p{
+		color: #fff;
+		font-size: 20px;
+		text-align: center;
+	}
+	.overlay-form label{
+		color: #fff;
+		position: relative;
+		z-index: 50;
+		font-size: 20px;
+	}
+	.call input{
+		padding: 7px 15px;
+		border-radius: 5px;
+		outline: none;
+		border: none;
+		margin-top: 10px;
+		font-size: 25px;
+	}
+	.call h2{
+		margin: 0;
+		margin-bottom: 50px;
+		font-size: 25px;
+		color: #fff;
+	}
+	.call{
+		width: 70%; 
+	}
+}
+@media screen and (max-width: 768px){
+	.header-content{
+		padding-left: 50px;
+		padding-right: 50px;
+	}
+	.header-content h1{
+		font-size: 55px;
+		margin-bottom: 100px;
+		text-align: center;
+	}
+	.header-buttons{
+		display: -webkit-flex;
+		display: -moz-flex;
+		display: -ms-flex;
+		display: -o-flex;
+		display: flex;
+		-webkit-flex-direction: column;
+		-moz-flex-direction: column;
+		-ms-flex-direction: column;
+		-o-flex-direction: column;
+		flex-direction: column;
+	}
+	.but-two{
+		margin-left: 0;
+		margin-top: 50px;
+		padding: 17px 65px;
+	}
+	.about-me_item{
+		margin-top: 50px;
+	}
+	.about-me_section{
+		padding-left: 70px;
+		padding-right: 70px;
+	}
+	.my-skills_section{
+		padding-left: 70px;
+		padding-right: 70px;
+	}
+	.my-skills_section-item{
+		margin-top: 0px;
+	}
+	.works img{
+		width: 450px;
+		height: 350px;
+	}
+	.works{
+		padding-left: 70px;
+		padding-right: 70px;
+	}
+	.works-one, .works-two, .works-three, .works-four, .works-five, .works-six{
+		display: -webkit-flex;
+		display: -moz-flex;
+		display: -ms-flex;
+		display: -o-flex;
+		display: flex;
+		-webkit-flex-direction: column;
+		-moz-flex-direction: column;
+		-ms-flex-direction: column;
+		-o-flex-direction: column;
+		flex-direction: column;
+	}
+	.works-item-two, .works-item-four, .works-item-six{
+		margin-left: 0;
+		margin-top: 50px;
+	}
+	.auth-section{
+		padding-left: 70px;
+		padding-right: 70px;
+	}
+	.auth-top, .auth-bottom{
+		display: -webkit-flex;
+		display: -moz-flex;
+		display: -ms-flex;
+		display: -o-flex;
+		display: flex;
+		-webkit-flex-direction: column;
+		-moz-flex-direction: column;
+		-ms-flex-direction: column;
+		-o-flex-direction: column;
+		flex-direction: column;
+		margin: 0;
+	}
+	.auth-section p{
+		font-size: 35px;
+	}
+	.auth-section span{
+		font-size: 25px;
+		margin-top: 15px;
+	}
+	 .button-go{
+	 	padding: 5px 15px;
+	 	border-radius: 5px;
+	 	cursor: pointer;
+	 	margin-top: 20px;
+	 	font-size: 19px;
+	 }
+}
+@media screen and (max-width: 630px){
+	.works img{
+		width: 250px;
+		height: 150px;
+	}
+	.about-me_section{
+		text-align: center;
+		padding-left: 20px;
+		padding-right: 20px;
+	}
+	.my-skills_section{
+		text-align: center;
+		padding-left: 20px;
+		padding-right: 20px;
+	}
+	.my-works_section{
+		padding-left: 20px;
+		padding-right: 20px;
+	}
+	.overlay h2{
+		font-size: 20px;
+	}
+	.overlay-form p{
+		color: #fff;
+		font-size: 15px;
+	}
+	.overlay-form label{
+		color: #fff;
+		position: relative;
+		z-index: 50;
+		font-size: 15px;
+	}
+	.call input{
+		padding: 5px 10px;
+		border-radius: 5px;
+		outline: none;
+		border: none;
+		margin-top: 10px;
+		font-size: 20px;
+	}
+	.call{
+		width: 80%; 
+	}
+	.button-go{
+	 	padding: 5px 15px;
+	 	border-radius: 5px;
+	 	cursor: pointer;
+	 	font-size: 20px;
+	 	margin-top: 20px;
+	 }
+	 .header h1{
+	 	font-size: 60px;
+	 }
+}
+@media screen and (max-width: 420px){
+	.header{
+		padding-bottom: 50px;
+	}
+	.header h1{
+	 	font-size: 40px;
+	 }
+	.about-me_section{
+		text-align: center;
+		padding-left: 20px;
+		padding-right: 20px;
+	}
+	.about-me_section span{
+		font-size: 25px;
+	}
+	.about-me_section p{
+		font-size: 20px;
+	}
+	.my-skills_section{
+		text-align: center;
+		padding-left: 20px;
+		padding-right: 20px;
+	}
+	.my-skills_section span {
+		font-size: 25px;
+	}
+	.my-works_section{
+		padding-left: 20px;
+		padding-right: 20px;
+	}
+	.my-works_section p{
+		font-size: 35px;
+	}
+	.auth-section{
+		padding-left: 20px;
+		padding-right: 20px;
+	}
+	.auth-section p{
+		font-size: 30px;
+	}
+	.testi {
+		font-size: 20px;
+	}
+	.footer p{
+		font-size: 25px;
+	}
+	.footer span{
+		font-size: 25px;
+	}
+	.overlay h2{
+		font-size: 20px;
+	}
+	.overlay-form p{
+		color: #fff;
+		font-size: 15px;
+	}
+	.overlay-form label{
+		color: #fff;
+		position: relative;
+		z-index: 50;
+		font-size: 15px;
+	}
+	.call input{
+		padding: 5px 10px;
+		border-radius: 5px;
+		outline: none;
+		border: none;
+		margin-top: 10px;
+		font-size: 15px;
+	}
+	.call{
+		width: 80%; 
+	}
+}
+@media screen and (max-width: 320px){
+	.header h1{
+	 	font-size: 30px;
+	 }
+}
