@@ -508,6 +508,7 @@ section{
 	position: relative;
 	z-index: 10;
 	margin-top: 50px;
+	text-align: center;
 }
 .my-works_section p{
 	color: #a7a7a7;
