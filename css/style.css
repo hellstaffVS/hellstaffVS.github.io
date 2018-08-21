@@ -481,7 +481,7 @@ section{
 	display: -ms-flex;
 	display: -o-flex;
 	display: flex;
-	/*align-items: center;*/
+	align-items: center;
 	justify-content: center;
 	-webkit-flex-direction: column;
 	-moz-flex-direction: column;
@@ -524,6 +524,7 @@ section{
 	background-color: #5e5e5e;
 	margin-top: 30px;
 	margin-bottom: 100px;
+	margin: 0 auto;
 }
 .works-item-one img{
 	width: 450px;
