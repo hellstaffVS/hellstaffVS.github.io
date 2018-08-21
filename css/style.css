@@ -481,7 +481,7 @@ section{
 	display: -ms-flex;
 	display: -o-flex;
 	display: flex;
-	align-items: center;
+	/*align-items: center;*/
 	justify-content: center;
 	-webkit-flex-direction: column;
 	-moz-flex-direction: column;
@@ -522,9 +522,23 @@ section{
 	width: 70%;
 	height: 1px;
 	background-color: #5e5e5e;
+	margin: auto;
 	margin-top: 30px;
 	margin-bottom: 100px;
-	margin: 0 auto;
+}
+.works{
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	-webkit-flex-direction: column;
+	-moz-flex-direction: column;
+	-ms-flex-direction: column;
+	-o-flex-direction: column;
+	flex-direction: column;
 }
 .works-item-one img{
 	width: 450px;
